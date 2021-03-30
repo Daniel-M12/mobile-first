@@ -34,8 +34,8 @@ header{
 
 header img {
   position: absolute;
+  align-self: center;
   top: 14%;
-  left: 26%;
 }
 
 .header--container{
@@ -61,8 +61,25 @@ header img {
  .header--button{
    display: inline-block;
    position: relative;
+   width: 229rem;
+   height: 48rem;
    top: 40rem;
    padding: 15rem 16rem;
    background-color: var(--off-white);
    font-size: 14rem;
- } 
+   /*Font styles of button's text*/
+   text-decoration: none;
+   color: var(--warm-black);
+   font-weight: bold;
+   font-size: 14rem;
+   /*Style of button*/
+   border-radius: 4rem;
+   box-shadow: 0rem 4rem 8rem rgba(89, 73, 30, 0.16);
+ }
+ 
+ .header--button span{
+   display: inline-block;
+   padding: 6rem;
+   position: relative;
+   bottom: 6rem;
+ }

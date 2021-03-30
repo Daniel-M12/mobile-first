@@ -48,12 +48,14 @@ header img {
  .header--container h1{
    position: relative;
    font-size: 24rem;
+   color: var(--just-white);
  }
 
  .header--container p{
    position: relative;
    top: 24rem;
    font-size: 14rem;
+   color: var(--soft-orange);
  }
 
  .header--button{

@@ -1,0 +1,32 @@
+:root{
+  /*Colors*/
+  --bitcoin-orange: #F7931A;
+  --soft-orange: #FFE9D4;
+  --secondary-blue: #1A9AF7;
+  --soft-blue: #E7F5FF;
+  --warm-black: #201E1C;
+  --black-plus: #282623;
+  --grey: #BABABA;
+  --off-white: #FAF8F7;
+  --just-white: #FFFFFF;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 6.25%;
+  font-family: 'DM Sans', sans-serif;
+}
+
+header{
+  font-size:16rem;
+  background: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcoin-orange) 100%);
+}
+
+.header--container {
+
+}

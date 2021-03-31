@@ -1,3 +1,6 @@
+La maquetación se realizará utilizando el diseño entregado en la página de Figma. (https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=44%3A593) 
+Normalmente los diseñadores entregan su trabajo en dicha página.
+
 Por buenas prácticas se recomienda seguir un orden para agregar los estilos, esto con el fin de ir sabiendo los cambios de estilo que van afectando
 a la página, y, por ej., saber si se comete algún error, etc.
 
@@ -11,6 +14,7 @@ Un orden que podría seguirse para trabajar el CSS podría ser:
 
 HEADER
  Recordar que por buenas prácdticas, sólo puede existir un encabezado h1, por temas de SEO.
+
 
 
 

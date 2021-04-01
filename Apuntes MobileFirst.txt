@@ -15,6 +15,10 @@ Un orden que podría seguirse para trabajar el CSS podría ser:
 HEADER
  Recordar que por buenas prácdticas, sólo puede existir un encabezado h1, por temas de SEO.
 
+MAIN
+ - El Marging: 0 auto; permite que el contenido se posicione en el centro
+ - min-width: 288px; y max-width:900px; permitirán que el contenido no se achique por debajo de 288px, ni crezca por encima de 900px.
+
 
 
 

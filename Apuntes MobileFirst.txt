@@ -18,7 +18,14 @@ HEADER
 MAIN
  - El Marging: 0 auto; permite que el contenido se posicione en el centro
  - min-width: 288px; y max-width:900px; permitirán que el contenido no se achique por debajo de 288px, ni crezca por encima de 900px.
-
+ - background-size: Puede tomar un valor de porcentaje o longitud, así como también una de las siguientes palabras clave:
+	- contain: Escala la imagen al mayor tamaño posible, sin recortarla o estirarla.
+	- cover:Escala la imagen al mayor tamaño posible, sin estirarla; pero la recorta si se excede de los bordes.
+	
+ + Tablas: Para agregar tablas en HTML se pueden usar las siguientes etiquetas:
+	- <table></table>	: Contenedor de la tabla
+	- <tr></tr>		: Permite colocar una fila en la tabla
+	- <td></td>		: Para colocar datos de la tabla. Se coloca dentro de tr. Cada td genera una columna con los datos que contenga.
 
 
 

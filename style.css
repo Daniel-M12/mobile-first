@@ -22,6 +22,8 @@ html{
   font-family: 'DM Sans', sans-serif;
 }
 
+/*Header*/
+
 header{
   font-size:16rem;
   height: 295px;
@@ -80,10 +82,159 @@ header img {
    border-radius: 4rem;
    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
  }
- 
+
  .header__button span{
    display: inline-block;
    padding: 6px;
    position: relative;
    bottom: 6px;
  }
+
+/*Main*/
+/*1st: Exchange section*/
+
+ main{
+   width: 100%;
+   height: auto;
+   background-color: var(--off-white);
+  }
+
+ .main-exchange {
+   height: auto;
+   width: 100%;
+   padding-top: 80px;
+   padding-bottom: 30px;
+ }
+
+ .main-exchange--logo{
+   height: 195px;
+   width: 195px;
+   margin: 0 auto;
+   background-image: url('./Assets/images/bitcoin.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .main-exchange--text{
+   height: auto;
+   width: 90%;
+   min-width: 288px;
+   max-width: 900px;
+   text-align: center;
+   margin: 0 auto;
+ }
+
+ .main-exchange--text h2{
+   margin-bottom: 24px;
+   font-size: 24rem;
+   line-height: 26rem;
+   color: var(--warm-black);
+   font-weight: bold;
+ }
+
+ .main-exchange--text p{
+  margin-bottom: 24px;
+  font-size: 14rem;
+  line-height: 18rem;
+  color: #757575;
+  font-weight: 500;
+ }
+
+ .main-exchange--table{
+   height: 194px;
+   width: 235px;
+   max-width: 500px;
+   margin: 0 auto;
+ }
+
+ .main-exchange--table table{
+    margin: 0 auto;
+ }
+
+ .exchange--table__title{
+    font-size: 18rem;
+    line-height: 23rem;
+    font-weight: bold;
+    color: #FF9536;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding-left: 25px;
+ }
+
+ .table--left{
+   height: 39px;
+   width: 101px;
+   font-family: Inter;
+   font-size: 16rem;
+   line-height: 19rem;
+   font-weight: 500;
+   color: #B5B0AC;
+   background-color: var(--just-white);
+   padding: 0px 10px;
+ }
+
+ .table--right{
+   height: 39px;
+   width: 95px;
+   font-family: Inter;
+   font-size: 14rem;
+   line-height: 17rem;
+   color: #757575;
+   background-color: var(--just-white);
+   padding: 0px 10px;
+ }
+
+ .down{
+   height: 12px;
+   width: 12px;
+   display: inline-block;
+   margin-left: 10px;
+   background-image: url('./Assets/icons/trending-down.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .up{
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  margin-left: 10px;
+  background-image: url('./Assets/icons/trending-up.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.table--left__up{
+  border-radius: 5px 0 0 0;
+}
+
+.table--right__up{
+  border-radius: 0 5px 0 0;
+}
+
+.table--right__down{
+  border-radius: 0 0 5px 0;
+}
+
+.table--left__down{
+  border-radius: 0 0 0 5px;
+}
+
+.exchange--table__actualization{
+  height: 30px;
+  width: 190px;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 5px;
+}
+
+.exchange--table__actualization p{
+  font-size: 12rem;
+  line-height: 15rem;
+  color: var(--warm-black);
+  text-align: center;
+}

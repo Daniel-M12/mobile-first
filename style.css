@@ -97,7 +97,6 @@ header img {
    width: 100%;
    height: auto;
    background-color: var(--off-white);
-   box-sizing: border-box;
   }
 
  .main-exchange {
@@ -123,7 +122,8 @@ header img {
    min-width: 288px;
    max-width: 900px;
    text-align: center;
-   margin: 0 auto;
+   margin: 40px auto 40px;
+
  }
 
  .main-exchange--text h2{
@@ -203,7 +203,7 @@ header img {
    height: 12px;
    width: 12px;
    display: inline-block;
-   margin-left: 10px;
+   margin-left: 5px;
    background-image: url('./Assets/icons/trending-down.png');
    background-position: center;
    background-repeat: no-repeat;
@@ -214,7 +214,7 @@ header img {
   height: 12px;
   width: 12px;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 5px;
   background-image: url('./Assets/icons/trending-up.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -222,25 +222,25 @@ header img {
 }
 
 .table--left__up{
-  border-radius: 5px 0 0 0;
+  border-radius: 10px 0 0 0;
 }
 
 .table--right__up{
-  border-radius: 0 5px 0 0;
+  border-radius: 0 10px 0 0;
 }
 
 .table--right__down{
-  border-radius: 0 0 5px 0;
+  border-radius: 0 0 10px 0;
 }
 
 .table--left__down{
-  border-radius: 0 0 0 5px;
+  border-radius: 0 0 0 10px;
 }
 
 .exchange--table__actualization{
   height: 30px;
   width: 190px;
-  margin: 0 auto;
+  margin: 10px auto 0;
   padding: 8px;
   background-color: var(--soft-orange);
   border-radius: 5px;
@@ -252,7 +252,56 @@ header img {
   color: var(--warm-black);
   text-align: center;
 }
-
+/*Tabla de Comisiones*/
 .main-comissions--table{
+  height: auto;
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  margin: 40px auto 20px;
+  font-size: 10rem;
+}
 
+.comissions--table__title{
+  font-size: 18rem;
+  line-height: 23rem;
+  font-weight: bold;
+  color: var(--secondary-blue);
+  margin-bottom: 15px;
+  margin-left: 15%;
+}
+
+.comissions-table__container{
+  height: 250px;
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.comissions-table__container table{
+  height: 100%;
+  width: 100%;
+}
+
+.comissions-table__container td{
+  width: 50%;
+  background-color: var(--just-white);
+}
+
+.comissions--table__actualization{
+  height: 30px;
+  width: 190px;
+  margin: 10px auto 0;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 5px;
+}
+
+.comissions--table__actualization p{
+  font-size: 12rem;
+  line-height: 15rem;
+  color: var(--warm-black);
+  text-align: center;
 }

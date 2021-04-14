@@ -755,3 +755,37 @@ header img {
   background-repeat: no-repeat;
   vertical-align: text-bottom;
 } */
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: var(--bitcoin-orange);
+  display: flex;
+}
+
+footer section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left {
+  font-size: 14rem;
+  line-height: 18rem;
+  font-weight: 500;
+  color: var(--just-white);
+}
+
+.footer-left ul {
+  list-style: none;
+}
+
+.footer-left ul a {
+  text-decoration: none;
+  color: var(--just-white);
+}
+
+.footer-left ul a:hover {
+  text-decoration: underline;
+}

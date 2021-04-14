@@ -27,10 +27,21 @@ MAIN
 	- <tr></tr>		: Permite colocar una fila en la tabla
 	- <td></td>		: Para colocar datos de la tabla. Se coloca dentro de tr. Cada td genera una columna con los datos que contenga.
 
+ - vertical-align: Alinea un elemento en línea con respecto a su contenedor padre. Es útil para alinear al centro un texto dentro de un botón.
 
+ - overflow (-x, -y): Se aplica a un contenedor padre. Permite definir el comportamiento del contenido cuando este se desborde del contenedor.
+	- scroll: Permite que el contenido se muestre con una barra de scroll
+ - overscroll-behavior (-x, -y): Define lo que hará el navegador cuando se alcance el final del scroll.
+	- contain: 
+ - scroll-snap-type: Especifica cuan estricto será el efecto de scroll cuando se enfoque a un elemento hijo.
+	- proximity: Deja deslizar hasta parte del elemento hijo siguiente y luego se posiciona en él
+	- mandatory: Exige el posicionamiento sobre el siguiente elemento hijo.
+	- none: se puede posicionar en cualquier lugar del scroll sin que se fuerce la vista a algún elemento.
 
+ - scroll-snap-align: Se asigna a un elemento hijo cuyo padre tenga overflow:scroll. Permite especificar en qué parte del siguiente elemento se posicionará la vista al deslizar el scroll.
+	- center: La vista se posiciona en el centro del siguiente elemento.
 
-
+La página https://caniuse.com/ permite buscar en qué navegadores están implementadas las diferentes funcionalidades de CSS, HTML, etc.
 
 
 

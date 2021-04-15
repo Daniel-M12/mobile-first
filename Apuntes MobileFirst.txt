@@ -43,7 +43,16 @@ MAIN
 
 La página https://caniuse.com/ permite buscar en qué navegadores están implementadas las diferentes funcionalidades de CSS, HTML, etc.
 
+FOOTER
 
+MEDIA QUERIES
+ - Para colocar un media query, se recomienda tener un archivo separado, pues así sólo cargará ese archivo si es necesario y se disminuirá el tiempo de carga cuando no lo es.
+   Para hacerlo, por ej.: Colocar en el <head> una etiqueta link de la siguiente forma:
+	- <link rel="stylesheet" href="./CSS/tablet.css" media="(min-width: 930px)">
+
+TESTING
+En Chrome (Inspect) está implementada la herramienta Lightroom, la cual permite evaluar el desempeño de la página.
+En ella se indica el puntaje que obtiene el sitio en diferentes aspectos y da consejos de cómo éste puede mejorarse.
 
 
 

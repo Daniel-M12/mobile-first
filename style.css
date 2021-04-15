@@ -81,7 +81,7 @@ header img {
    /*Style of button*/
    border-radius: 4rem;
    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
- }
+}
 
  .header__button span{
    display: inline-block;
@@ -157,6 +157,7 @@ header img {
    min-width: 235px;
    max-width: 500px;
    margin: 0 10px;
+   scroll-snap-align: center;
  }
 
  .exchange--table__title{
@@ -165,7 +166,7 @@ header img {
     font-weight: bold;
     color: #FF9536;
     margin-bottom: 15px;
-    margin-left: 20%;
+    text-align: center;
  }
 
  .currency-table__container{
@@ -199,7 +200,8 @@ header img {
    font-size: 14rem;
    line-height: 17rem;
    color: #757575;
-   padding: 0 10%;
+   /* padding: 10px 18px; */
+   text-align: center;
  }
 
  .down{
@@ -263,6 +265,7 @@ header img {
   max-width: 500px;
   margin: 0 15px;
   font-size: 10rem;
+  scroll-snap-align: center;
 }
 
 .comissions--table__title{
@@ -271,7 +274,7 @@ header img {
   font-weight: bold;
   color: var(--secondary-blue);
   margin-bottom: 15px;
-  margin-left: 15%;
+  text-align: center;
 }
 
 .comissions-table__container{
@@ -439,7 +442,7 @@ header img {
 .bitcoin-background{
   height: 380px;
   width: 100%;
-  background-image: url('./Assets/images/bitcoinbaby_2X.jpg');
+  background-image: url('./Assets/images/bitcoinbaby_1X.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -510,7 +513,7 @@ header img {
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   position: relative;
   scroll-snap-align: center;
-  margin: 30px 20px;
+  margin: 30px 5px;
 }
 
 .card__recomended {
@@ -597,7 +600,7 @@ header img {
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   position: relative;
   scroll-snap-align: center;
-  margin: 30px 20px;
+  margin: 30px 5px;
 }
 
 .card__basic {
@@ -684,7 +687,7 @@ header img {
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   position: relative;
   scroll-snap-align: center;
-  margin: 30px 20px;
+  margin: 30px 5px;
 }
 
 .card__expert {
@@ -791,4 +794,15 @@ footer section {
 
 .footer-left ul a:hover {
   text-decoration: underline;
+}
+
+footer section img {
+  height: 50px;
+  width: 64px;
+}
+
+@media (min-width: 450px) {
+  .bitcoin-background {
+    background-image: url("./Assets/images/bitcoinbaby_2X.jpg");
+  }
 }
